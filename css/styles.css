@@ -325,5 +325,18 @@ a{
   .plan-description{
 font-size: 1.7rem;
   }
-  
+}
+
+/* Media */
+.media{
+  display: flex;
+}
+.media-title{
+  margin: 0;
+}
+.media-body{
+  margin: 0 2rem;
+}
+.media-image{
+  margin-top: 1rem;
 }
