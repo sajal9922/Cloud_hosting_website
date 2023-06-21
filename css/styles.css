@@ -186,7 +186,7 @@ a{
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -267,6 +267,7 @@ a{
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn{
@@ -555,7 +556,7 @@ font-size: 1.7rem;
   margin: 0 auto;
 }
 .block{
-  --padding-vertical: 6rem;
+  --padding-vertical: 7rem;
   padding: var(--padding-vertical) 2rem;
 }
 
@@ -683,10 +684,11 @@ font-size: 1.7rem;
 }
 
 .block-domain-prices{
+  color: var(--color-headings);
   display: grid;
   font-size: 2rem;
   font-weight: 600;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2 6rem);
   justify-items: center;
   margin: 0 auto;
@@ -786,6 +788,10 @@ font-size: 1.7rem;
   color: #fff;
   opacity: 0.3;
 }
+/* Callout Signup Group*/
+.callout-signup {
+  transform: translateY(0.3rem);
+}
 
 @media screen and (min-width: 768px) {
   .footer-sections{
@@ -812,4 +818,13 @@ font-size: 1.7rem;
   .footer-heading{
     font-size: 1.6rem;
   }
+  /* Sign-up Callout */
+.callout-signup {
+  transform: translateY(5rem);
 }
+}
+
+
+
+
+  
